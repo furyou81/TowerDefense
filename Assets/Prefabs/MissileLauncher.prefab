@@ -156,7 +156,7 @@ MonoBehaviour:
   range: 30
   fireRate: 0.25
   turnSpeed: 10
-  bulletPrefab: {fileID: 8735037269455986576, guid: 772b61ca2eb5a45108337d7be85a1fb9, type: 3}
+  bulletPrefab: {fileID: 1360502930713156803, guid: 217d4f2baa66641048fac120b4d8e323, type: 3}
   firePoint: {fileID: 6152833437501890036}
   enemyTag: Enemy
   partToRotate: {fileID: 2554678818283058751}
