@@ -25,14 +25,16 @@ public class Node : MonoBehaviour
     }
 
     void OnMouseDown() {
-        if (!buildManager.CanBuild)
-            return;
         
         if (turret != null) {
             Debug.Log("WE CANT BUILD HERE");
+            buildManager.SelectNode(this);
             return;
         }
         
+        if (!buildManager.CanBuild)
+            return;
+
         buildManager.BuildTurretOn(this);
     }
 
